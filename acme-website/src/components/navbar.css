@@ -5,6 +5,9 @@ nav{
   background-color: black;
   padding: 4px 50px;
   border-bottom: 1px solid #E1B768;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 #navbar{
@@ -48,7 +51,7 @@ nav{
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 86px;
+        top: 88px;
         right: -300px;
         width: 300px;
         height: 100vh;
@@ -64,6 +67,7 @@ nav{
 
     #navbar li{
         margin-bottom: 25px;
+        background-color: rgb(28, 28, 28);
     }
 
     #mobile {

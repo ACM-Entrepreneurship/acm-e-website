@@ -1,0 +1,24 @@
+#header_img {
+    width: 100%;
+    height: 100%;
+    padding-top: 215px;
+}
+
+#paragraph_header {
+    color: #E1B768;
+    font-family: inter;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+#paragraph_text {
+    font-family: inter;
+    font-size: 35px;
+    color: #E1B768;
+    font-style: normal;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
