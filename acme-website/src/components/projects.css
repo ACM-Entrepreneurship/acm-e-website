@@ -8,7 +8,10 @@
 
 body {
     font-family: inter;
-    margin: 2rem;
+}
+
+.projects {
+    padding-top: 75px;
 }
 
 .card {
@@ -18,12 +21,13 @@ body {
     cursor: pointer;
     transition: transform 200ms ease-in;
     border-radius: 0.2rem;
-    box-shadow: 0 2px 20px #E1B768;
+    box-shadow: 0 2px 10px #E1B768;
     flex-direction: column;
 }
 
 .card_wrapper {
     padding-top: 40px;
+    padding-bottom: 30px;
     display: grid;
     gap: 7rem;
     justify-content: center;

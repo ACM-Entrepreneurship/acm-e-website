@@ -2,7 +2,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: #171717;
   padding: 4px 50px;
   border-bottom: 1px solid #E1B768;
   position: fixed; /* Set the navbar to fixed position */
