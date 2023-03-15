@@ -13,24 +13,28 @@ function Join() {
             <div className="container">
                 <div className="join_cards">
                     <div className="join_card">
-                        <h1>Weekly Meetings</h1>
-                        <h2>Tuesdays at 6:30 PM</h2>
-                        <h2>CS Building</h2>
-                        <h2>Room 221</h2>
+                        <h2 className="join-h2">Weekly Meetings</h2>
+                        <div className="join-p-div">
+                         <p className="join-p">Tuesdays at 6:30 PM</p>
+                         <p className="join-p">CS Building</p>
+                         <p className="join-p">Room 221</p>
+                        </div>
                     </div>
-                </div>
-            </div> 
-          </section>
-        </div>
 
-        <div>
-          <section>
-            <div className="container">
-                <div className="join_cards">
                     <div className="join_card">
-                        <h1>Discord</h1>
-                        <h2>Join our Discord for updates and discussions</h2>
-                        <button className="join-btn">ACM-E Discord</button>
+                        <h2 className="join-h2">Discord</h2>
+                        <div className="join-p-div">
+                         <p className="join-p">Join our Discord for updates and discussions!</p>
+                         <a href="#" className="join-btn">Our Discord</a>
+                        </div>
+                    </div>
+                    
+                    <div className="join_card">
+                        <h2 className="join-h2">Interest Form</h2>
+                        <div className="join-p-div">
+                         <p className="join-p">Fill out the interest form!</p>
+                         <a href="#" className="join-btn">Interest Form</a>
+                        </div>
                     </div>
                 </div>
             </div> 
