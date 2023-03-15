@@ -1,1 +1,1 @@
-# acm-e-website
+# ACM Entrpenuership website GitHub repository
