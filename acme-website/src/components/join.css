@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-h1 {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.join_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join_card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    border: none;
+    outline: none;
+    background: #E1B768;
+    border-radius: 10px;
+    max-width: 120px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
