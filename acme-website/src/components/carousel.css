@@ -1,0 +1,26 @@
+.carousel {
+    width: auto;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.carousel_card {
+    margin-left: 30px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #E1B768;
+}
+
+.slick-dots li button:before {
+    color: white;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #E1B768;
+}
+
+#team_cards {
+    width: 14rem;
+    height: 23rem;
+}

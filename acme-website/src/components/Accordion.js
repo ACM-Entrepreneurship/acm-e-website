@@ -14,19 +14,24 @@ function Accordion() {
     }
 
     return (
-        <div className="accordion_wrapper">
-            <div className="accordion">
-                {data.map((item, i) => (
-                    <div className="accordion_item">
-                        <div className="accordion_title" onClick = {() => toggle(i)}>
-                            <h2 className="accordion_h2">{item.question}</h2>
-                            <span>{selected == i ? '-' : '+'}</span>
-                        </div>
-                        <div className={selected == i ? 'accordion_content show' : 'accordion_content'}>{item.answer}</div>
-                    </div>
-                ))}
-            </div>
-        </div>
+        <>
+         <div>
+           <h1 id="paragraph_header">FAQ</h1>
+         </div>
+         <div className="accordion_wrapper">
+             <div className="accordion">
+                 {data.map((item, i) => (
+                     <div className="accordion_item">
+                         <div className="accordion_title" onClick = {() => toggle(i)}>
+                             <h2 className="accordion_h2">{item.question}</h2>
+                             <span>{selected == i ? '-' : '+'}</span>
+                         </div>
+                         <div className={selected == i ? 'accordion_content show' : 'accordion_content'}>{item.answer}</div>
+                     </div>
+                 ))}
+             </div>
+         </div>
+        </>
     )
 }
 
