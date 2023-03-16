@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import Join from './components/join';
 import Accordion from './components/Accordion';
 import Carousel from './components/carousel';
+import Schedule from './components/schedule';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar/>
       <Home />
       <Projects />
+      <Schedule />
       <Carousel />
       <Join />
       <Accordion />

@@ -8,7 +8,7 @@ function Footer (){
              <footer>
                  <div className="footer_img">
                    <img src="images/acme_logo.png" width="150" height="75" alt="ACME-E Logo"/>
-                   <span id="footer_span">ACM Entrepreneurship © 2022 Company, Inc</span>
+                   <span id="footer_span">Copyright © 2022 ACM Entrepreneurship</span>
                  </div>
  
                  <div>
