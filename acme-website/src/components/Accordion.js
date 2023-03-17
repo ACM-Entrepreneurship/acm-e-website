@@ -15,7 +15,7 @@ function Accordion() {
 
     return (
         <>
-         <div>
+         <div id="faq">
            <h1 id="paragraph_header">FAQ</h1>
          </div>
          <div className="accordion_wrapper">

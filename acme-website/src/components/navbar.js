@@ -14,12 +14,12 @@ class Navbar extends Component {
 
             <div>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Team</a></li>
-                    <li><a href="">Join</a></li>
-                    <li><a href="">FAQ</a></li>
+                    <li><a href="/#home">Home</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#events">Events</a></li>
+                    <li><a href="/#team">Team</a></li>
+                    <li><a href="/#join">Join</a></li>
+                    <li><a href="/#faq">FAQ</a></li>
                 </ul>
             </div>
 

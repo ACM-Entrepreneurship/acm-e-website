@@ -10,7 +10,7 @@ function Schedule() {
 
   return (
     <>
-    <div className="projects">
+    <div id="events" className="projects">
        <h1 id="paragraph_header">Events</h1>
     </div>
     <div className="schedule-container">

@@ -15,7 +15,7 @@ export default class HomeSlider extends Component {
       autoplaySpeed: 3000, // Set autoplay interval in milliseconds
     };
     return (
-      <div className="carousel">
+      <div id="home" className="carousel">
         <Slider {...settings}>
         <div className="carousel_home_card">
             <img src="images/group-pic-1.jpg" id="home_cards"/>

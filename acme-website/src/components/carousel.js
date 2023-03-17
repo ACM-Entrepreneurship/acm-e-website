@@ -39,7 +39,7 @@ export default class Carousel extends Component {
       ]
     };
     return (
-      <div className="carousel">
+      <div id="team" className="carousel">
         <div className="projects">
           <h1 id="paragraph_header">Team</h1>
         </div>

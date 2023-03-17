@@ -4,7 +4,7 @@ function Join() {
     return (
       <>
      
-        <div className="projects">
+        <div id="join" className="projects">
           <h1 id="paragraph_header">How to Join</h1>
         </div>
     
@@ -25,7 +25,7 @@ function Join() {
                         <h2 className="join-h2">Discord</h2>
                         <div className="join-p-div">
                          <p className="join-p">Join our Discord for updates and discussions!</p>
-                         <a href="#" className="join-btn">Our Discord</a>
+                         <a href="https://discord.gg/geenvNRg" className="join-btn">Our Discord</a>
                         </div>
                     </div>
                     
