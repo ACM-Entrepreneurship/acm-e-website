@@ -25,7 +25,7 @@
   @media (max-width: 480px) {
     /* styles for screens up to 480px wide */
     #paragraph_header {
-      font-size: 24px;
+      font-size: 32px;
       padding-top: 50px;
       padding-bottom: 30px;
     }

@@ -35,7 +35,7 @@ body {
 }
 
 .card_img {
-    height: 15rem;
+    height: 240px;
     width: 100%;
     object-fit: cover;
 }
