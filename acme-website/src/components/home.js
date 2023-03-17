@@ -1,12 +1,9 @@
 import "./home.css";
 
+
 function Home (){
     return(
         <>
-          <div className="header">
-            <img src="images/header.jpg" id="header_img"/>
-          </div>
-
           <div className="paragraph">
             <div className="header">
               <h1 id="paragraph_header">Vision</h1>
@@ -18,7 +15,7 @@ function Home (){
 
           </div>
         </>
-    )
+    );
 }
 
 export default Home;

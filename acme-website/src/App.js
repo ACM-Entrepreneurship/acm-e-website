@@ -9,17 +9,21 @@ import Join from './components/join';
 import Accordion from './components/Accordion';
 import Carousel from './components/carousel';
 import Schedule from './components/schedule';
+import Partners from './components/partners';
+import HomeSlider from './components/carousel_home';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <HomeSlider />
       <Home />
       <Projects />
       <Schedule />
       <Carousel />
       <Join />
       <Accordion />
+      <Partners />
       <Footer />
     </div>
   );

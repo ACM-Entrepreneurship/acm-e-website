@@ -1,0 +1,16 @@
+.partners-row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.partners-column {
+   padding-top: 20px;
+   padding-left: 45px;
+   padding-right: 45px;
+}
+
+#partners-img {
+    width: 30vh;
+    height: 30vh;
+}

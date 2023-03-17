@@ -10,15 +10,51 @@
     text-align: center;
     padding-top: 110px;
     padding-bottom: 30px;
-    font-size: 2.5rem;
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    /* styles for screens up to 767px wide */
+    #paragraph_header {
+      font-size: 32px;
+      padding-top: 80px;
+      padding-bottom: 30px;
+    }
+}
+  
+  @media (max-width: 480px) {
+    /* styles for screens up to 480px wide */
+    #paragraph_header {
+      font-size: 24px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
 }
 
 #paragraph_text {
     font-family: inter;
-    font-size: 2rem;
+    font-size: 32px;
     color: #E1B768;
     font-style: normal;
     text-align: center;
     padding-left: 70px;
     padding-right: 70px;
+}
+
+@media (max-width: 767px) {
+    /* styles for screens up to 767px wide */
+    #paragraph_text {
+      font-size: 24px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+  
+  @media (max-width: 480px) {
+    /* styles for screens up to 480px wide */
+    #paragraph_text {
+      font-size: 18px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
