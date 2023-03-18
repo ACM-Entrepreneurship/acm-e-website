@@ -1,16 +1,45 @@
 .pages-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #171717;
-    padding: 4px 50px;
-    border-bottom: 1px solid #E1B768;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    z-index: 100; /* Prevents overlap */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171717;
+  padding: 4px 50px;
+  border-bottom: 1px solid #E1B768;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 100; /* Prevents overlap */
 }
 
+.PageNotFound{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.PageNotFound h1 {
+  color: #E1B768;
+  font-size: 35px;
+}
+
+.PageNotFound p {
+  color: #E1B768;
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: 450;
+}
+
+.button-404 {
+  background-color: #E1B768; /* Green */
+  color: #171717;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
 .pages-header {
     text-align: center;

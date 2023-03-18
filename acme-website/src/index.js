@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import MinerWarehouse from './pages/miner-wh';
+import Page404 from './pages/page404';
 
 import {
     createBrowserRouter,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     {
       path: "minerwarehouse",
       element: <MinerWarehouse />,
+    },
+    {
+      path: "/*",
+      element: <Page404 />,
     },
 ]);
 
