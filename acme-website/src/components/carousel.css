@@ -25,6 +25,7 @@
     height: 23rem;
 }
 
+
 #home_cards {
     width: 1000px;
     height: 600px;
@@ -45,7 +46,7 @@
 @media (max-width: 480px) {
     /* styles for screens up to 480px wide */
     #home_cards {
-      height: 300px;
+      height: 200px;
       width: 100%;
       margin-top: 130px;
       margin-left: 0px;
@@ -55,9 +56,14 @@
 @media (max-width: 320px) {
     /* styles for screens up to 320px wide */
     #home_cards {
-      height: 300px;
+      height: 166px;
       width: 100%;
       margin-top: 130px;
       margin-left: 0px;
+    }
+
+    #team_cards {
+      width: 12rem;
+      height: 20rem;
     }
 }

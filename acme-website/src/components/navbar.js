@@ -10,7 +10,7 @@ class Navbar extends Component {
     return(
         <>
           <nav>
-            <a href=""><img src="images/acme_logo.png" width="150" height="75" alt="ACME-E Logo"/></a>
+            <a href=""><img src="images/acme_logo.png" id="acme-logo-r" alt="ACME-E Logo"/></a>
 
             <div>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>

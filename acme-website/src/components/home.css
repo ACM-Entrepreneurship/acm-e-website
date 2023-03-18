@@ -22,13 +22,22 @@
     }
 }
   
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     /* styles for screens up to 480px wide */
     #paragraph_header {
       font-size: 32px;
       padding-top: 50px;
       padding-bottom: 30px;
     }
+}
+
+@media (max-width: 320px) {
+  /* styles for screens up to 480px wide */
+  #paragraph_header {
+    font-size: 27px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
 }
 
 #paragraph_text {

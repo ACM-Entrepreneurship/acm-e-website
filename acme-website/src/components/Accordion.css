@@ -45,3 +45,15 @@
     padding-top: 20px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
+
+@media screen and (max-width:600px) {
+    .accordion_wrapper {
+        height: 35vh;
+    }
+    .accordion_h2 {
+        font-size: 15px;
+    }
+    .accordion {
+        width: 300px;
+    }
+}

@@ -45,6 +45,11 @@ nav{
     color: #E1B768;
 }
 
+#acme-logo-r {
+    width: 150px;
+    height: 75px;
+}
+
 @media screen and (max-width:900px) {
     #navbar{
         display: flex;
@@ -78,5 +83,10 @@ nav{
     #mobile i{
         font-size: 24px;
         cursor: pointer;
+    }
+
+    #acme-logo-r {
+        width: 120px;
+        height: 60px;
     }
 }
