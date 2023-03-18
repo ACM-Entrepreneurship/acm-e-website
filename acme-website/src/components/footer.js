@@ -13,9 +13,9 @@ function Footer (){
  
                  <div>
                    <ul id="footer_content">
-                     <li><a href="#"><BsInstagram size={38} color={"#E1B768"}/></a></li>
-                     <li><a href="#"><BsLinkedin size={38} color={"#E1B768"}/></a></li>
-                     <li><a href="#"><BsDiscord size={38} color={"#E1B768"}/></a></li>
+                     <li><a href="https://www.instagram.com/acm_entrepreneurship/" target="_blank" rel="noopener noreferrer"><BsInstagram size={38} color={"#E1B768"}/></a></li>
+                     <li><a href="/" target="_blank" rel="noopener noreferrer"><BsLinkedin size={38} color={"#E1B768"}/></a></li>
+                     <li><a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer"><BsDiscord size={38} color={"#E1B768"}/></a></li>
                    </ul>
                  </div>
              </footer>
