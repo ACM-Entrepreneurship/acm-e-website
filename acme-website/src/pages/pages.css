@@ -1,0 +1,53 @@
+.pages-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    padding: 4px 50px;
+    border-bottom: 1px solid #E1B768;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100; /* Prevents overlap */
+}
+
+
+.pages-header {
+    text-align: center;
+}
+
+#page_header {
+    width: 1000px;
+    height: 600px;
+    margin-top: 130px;
+}
+
+@media (max-width: 767px) {
+    /* styles for screens up to 767px wide */
+    #page_header {
+      height: 300px;
+      width: 100%;
+      margin-top: 130px;
+      margin-left: 0px;
+    }
+}
+  
+@media (max-width: 480px) {
+    /* styles for screens up to 480px wide */
+    #page_header {
+      height: 300px;
+      width: 100%;
+      margin-top: 130px;
+      margin-left: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* styles for screens up to 320px wide */
+    #page_header {
+      height: 300px;
+      width: 100%;
+      margin-top: 130px;
+      margin-left: 0px;
+    }
+}

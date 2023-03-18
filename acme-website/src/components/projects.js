@@ -1,4 +1,5 @@
 import "./projects.css";
+import { Link } from "react-router-dom";
 
 function Projects() {
     return(
@@ -13,7 +14,7 @@ function Projects() {
                       <img class="card_img" src="images/minerwarehouse_logo.png"/>
                       <h2 className="card_title">MinerWarehouse</h2>
                       <p className="card_description">E-Commerce website</p>
-                      <button className="card_btn">Learn more</button>
+                      <Link to="/minerwarehouse"><button className="card_btn">Learn more</button></Link>
                   </div>
               </div>
             
