@@ -8,7 +8,7 @@ function MinerWarehouse() {
     <>
     <div className='pages-navbar'>
         <Link to="/">
-            <img src="images/acme_logo.png" width="150" height="75" alt="ACME-E Logo"/>
+            <img src="images/acm_e_logo_transparent.png" width="150" height="75" alt="ACME-E Logo"/>
         </Link>
     </div>
 
