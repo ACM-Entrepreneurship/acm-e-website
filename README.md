@@ -1,3 +1,3 @@
 # ACM Entrpenuership website GitHub repository
 
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/parsa-hj/acm-e-website)
+<img alt="Bitbucket open issues" src="https://img.shields.io/bitbucket/issues/parsa-hj/acm-e-website">
