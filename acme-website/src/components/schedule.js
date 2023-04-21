@@ -62,9 +62,8 @@ function Schedule() {
           className={toggleState === 3 ? "schedule-content  active-schedule-content" : "schedule-content"}
         >
           
-          <h2>Guest: Elon Musk</h2>
-          <h2>Date: Monday, March 27th 2023</h2>
-          <h2>Location: Leach Theater</h2>
+          <h2>Date: Saturdays at 1 PM (CDT)</h2>
+          <h2>On ACM Entrepreneurship's YouTube channel</h2>
         </div>
 
         <div

@@ -32,8 +32,9 @@ function Projects() {
               <div className="card">
                   <div className="card_body">
                       <img class="card_img" src="images/acme-card-logo.png"/>
-                      <h2 className="card_title">Gems Genesis</h2>
-                      <p className="card_description">Coming Soon...</p>
+                      <h2 className="card_title">Podcast</h2>
+                      <p className="card_description">ACM-E's Podcast</p>
+                      <Link to="/podcast"><button className="card_btn">Learn more</button></Link>
                   </div>
               </div>
 
