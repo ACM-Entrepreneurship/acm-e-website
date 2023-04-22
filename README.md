@@ -7,6 +7,7 @@
 
 Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This website will serve as a platform for students to gain information about the organization, its events, projects, and resources. The website will consist of several sections including Home, Projects, Events, How to Join, Team, and FAQ.
 
+<br>
 
 ## Technologies Used
 - React.js
@@ -14,6 +15,7 @@ Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This
 - HTML
 - CSS
 
+<br>
 
 ## Getting Started
 We welcome contributions from everyone. Here are the steps you can take to get started if you would like to contribute to the project:
@@ -39,16 +41,19 @@ npm start
 
 6. Create a pull request: When you are ready to submit your changes, create a pull request from your fork to the original repository. We will review your changes and merge them into the main branch if they are accepted.
 
+<br>
 
 ## Contact
 ACM-E: entrepreneurshipacm@gmail.com
 
 Project Manager: parsa_hajiha@mst.edu
 
+<br>
 
 ## Contributors
 
 A special thanks goes to the following people who have contributed to this project:
 
-- [@parsa-hj](https://github.com/parsa-hj)
-- [@rueilmanzambi](https://github.com/rueilmanzambi)
+<a href="https://github.com/ACM-Entrepreneurship/acm-e-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ACM-Entrepreneurship/acm-e-website" />
+</a>
