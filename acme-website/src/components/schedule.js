@@ -77,6 +77,16 @@ function Schedule() {
 
       </div>
     </div>
+    <div className="calendar-container">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showPrint=0&showNav=0&showTabs=0&showCalendars=0&showTz=1&showTitle=0&src=azFwcWFhYTY5NWplMDU3NGJoNWc2ZzFmMjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161"
+        style={{ border: "solid 1px #777" }}
+        className="calendar-iframe"
+        frameBorder="0"
+        scrolling="no"
+        title="Calendar"
+      ></iframe>
+    </div>
     </>
   );
 }

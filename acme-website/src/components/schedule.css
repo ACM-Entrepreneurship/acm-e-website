@@ -89,3 +89,28 @@ button {
 .active-schedule-content {
   display: block;
 }
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.calendar-iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  .calendar-iframe {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .calendar-iframe {
+    height: 400px;
+  }
+}

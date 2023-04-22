@@ -44,37 +44,37 @@ export default class Carousel extends Component {
           <h1 id="paragraph_header">Team</h1>
         </div>
         <Slider {...settings}>
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
-
-          <div className="carousel_card">
-            <img src="images/website-card.png" id="team_cards"/>
-          </div>
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
+ 
+           <div className="carousel_card">
+             <img src="images/website-card.png" id="team_cards"/>
+           </div>
         </Slider>
       </div>
     );
