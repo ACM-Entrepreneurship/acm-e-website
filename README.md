@@ -50,5 +50,6 @@ Project Manager: parsa_hajiha@mst.edu
 
 A special thanks goes to the following people who have contributed to this project:
 
-- [@parsa-hj](https://github.com/parsa-hj)
-- [@rueilmanzambi](https://github.com/rueilmanzambi)
+<a href="https://github.com/ACM-Entrepreneurship/acm-e-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ACM-Entrepreneurship/acm-e-website" />
+</a>
