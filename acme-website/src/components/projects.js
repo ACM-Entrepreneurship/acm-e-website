@@ -11,7 +11,7 @@ function Projects() {
             <div className="card_wrapper">
               <div className="card">
                   <div className="card_body">
-                      <img class="card_img" src="./images/minerwarehouse_logo.png"/>
+                      <img class="card_img" src="images/minerwarehouse_logo.png"/>
                       <h2 className="card_title">MinerWarehouse</h2>
                       <p className="card_description">E-Commerce website</p>
                       <Link to="/minerwarehouse"><button className="card_btn">Learn more</button></Link>
