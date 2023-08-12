@@ -1,32 +1,24 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from './components/navbar';
-import Home from './components/home';
-import Projects from './components/projects';
-import Footer from './components/footer';
-import Join from './components/join';
-import Accordion from './components/Accordion';
-import Carousel from './components/carousel';
-import Schedule from './components/schedule';
-import Partners from './components/partners';
-import HomeSlider from './components/carousel_home';
+import MinerWarehouse from "./pages/miner-wh.js";
+import Podcast from "./pages/podcast.js";
+import Main from './pages/main';
 
-function App() {
+
+function App () {
   return (
-    <div className="App">
-      <Navbar/>
-      <HomeSlider />
-      <Home />
-      <Projects />
-      <Schedule />
-      <Carousel />
-      <Join />
-      <Accordion />
-      <Partners />
-      <Footer />
-    </div>
+     <>
+       <div className='App'>
+        <Routes>
+           <Route path="/" element={<Main />} />
+           <Route path="/minerwarehouse" element={<MinerWarehouse />} />
+           <Route path="/podcast" element={<Podcast />} />
+        </Routes>
+       </div>
+     </>
   );
-}
+ };
 
 export default App;

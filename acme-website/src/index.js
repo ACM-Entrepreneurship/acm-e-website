@@ -1,35 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import MinerWarehouse from './pages/miner-wh';
-import Page404 from './pages/page404';
-import Podcast from './pages/podcast';
-
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App />,
-    },
-    {
-      path: "minerwarehouse",
-      element: <MinerWarehouse />,
-    },
-    {
-      path: "podcast",
-      element: <Podcast />,
-    },
-    {
-      path: "/*",
-      element: <Page404 />,
-    },
-]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <RouterProvider router={router} />
+ <React.StrictMode>
+    <BrowserRouter>
+       <App />
+    </BrowserRouter>
+ </React.StrictMode>
 );
