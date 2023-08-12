@@ -8,10 +8,10 @@ function Partners() {
             </div>
             <div class="partners-row">
                 <div class="partners-column">
-                    <a href="https://www.mst.edu/" target="_blank" rel="noopener noreferrer"><img src="images/mst-logo.png" id="partners-img"/></a>
+                    <a href="https://www.mst.edu/" target="_blank" rel="noopener noreferrer"><img src="./images/mst-logo.png" id="partners-img"/></a>
                 </div>
                 <div class="partners-column">
-                    <a href="https://mstacm.org/" target="_blank" rel="noopener noreferrer"><img src="images/acm-logo.png" id="partners-img"/></a>
+                    <a href="https://mstacm.org/" target="_blank" rel="noopener noreferrer"><img src="/images/acm-logo.png" id="partners-img"/></a>
                 </div>
             </div>
         </>
