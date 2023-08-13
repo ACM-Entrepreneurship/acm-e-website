@@ -14,6 +14,7 @@ Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This
 - JavaScript
 - HTML
 - CSS
+- Bootstrap
 
 <br>
 
