@@ -2,7 +2,7 @@
 
 ![GitHub contributors](https://img.shields.io/github/contributors/ACM-Entrepreneurship/acm-e-website)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ACM-Entrepreneurship/acm-e-website)
-![GitHub Repo stars](https://img.shields.io/github/stars/ACM-Entrepreneurship/acm-e-website)\\
+![GitHub Repo stars](https://img.shields.io/github/stars/ACM-Entrepreneurship/acm-e-website)
 
 
 Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This website will serve as a platform for students to gain information about the organization, its events, projects, and resources. The website will consist of several sections including Home, Projects, Events, How to Join, Team, and FAQ.
