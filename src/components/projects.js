@@ -24,7 +24,7 @@ function Projects() {
                   <div className="card_body">
                       <img class="card_img" src="images/acme-card-logo.png"/>
                       <h2 className="card_title">Gems Genesis</h2>
-                      <p className="card_description">Gems Genesis</p>
+                      <p className="card_description">Coming soon ...</p>
                       <Link to="/gemsgenesis"><button className="card_btn">Learn more</button></Link>
                   </div>
               </div>

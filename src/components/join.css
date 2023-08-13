@@ -73,3 +73,7 @@ section {
     height: 40px;
     font-weight: 600;
 }
+
+.join-btn:hover {
+    background-color: #f1c97e;
+}

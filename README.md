@@ -3,6 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/ACM-Entrepreneurship/acm-e-website)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ACM-Entrepreneurship/acm-e-website)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ACM-Entrepreneurship/acm-e-website)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb4511e0-2ca2-4939-a19b-06afe54b7bc6/deploy-status)](https://app.netlify.com/sites/acmentrepreneurship/deploys)
 
 
 Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This website will serve as a platform for students to gain information about the organization, its events, projects, and resources. The website will consist of several sections including Home, Projects, Events, How to Join, Team, and FAQ.
@@ -42,7 +43,6 @@ npm start
 
 6. Create a pull request: When you are ready to submit your changes, create a pull request from your fork to the original repository. We will review your changes and merge them into the main branch if they are accepted.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cb4511e0-2ca2-4939-a19b-06afe54b7bc6/deploy-status)](https://app.netlify.com/sites/acmentrepreneurship/deploys)
 
 <br>
 

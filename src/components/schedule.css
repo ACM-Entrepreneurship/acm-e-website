@@ -41,8 +41,27 @@
   margin-top: 100px;
 }
 
-.calendar-iframe {
-  width: 100%;
-  max-width: 700px;
-  height: 500px;
+.calendar-iframe .styled-calendar-iframe {
+  display: none; /* Hide all iframes by default */
+}
+
+.desktop-calendar {
+  display: block; /* Display on larger screens */
+}
+
+.mobile-calendar {
+  display: none; /* Hide on larger screens */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .desktop-calendar {
+    display: none; /* Hide on mobile screens */
+  }
+  
+  .mobile-calendar {
+    display: block; /* Display on mobile screens */
+    width: 90%;
+    height: 400px;
+  }
 }
