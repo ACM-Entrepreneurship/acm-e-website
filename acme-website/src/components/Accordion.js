@@ -1,36 +1,27 @@
-import { useState } from 'react'
+import Accordion from 'react-bootstrap/Accordion';
 import "./Accordion.css";
 
-function Accordion() {
-
-    const [selected, setSelected] = useState(null)
-
-    const toggle = (i) => {
-        if (selected == i) {
-            return setSelected(null)
-        }
-
-        setSelected(i)
-    }
+function AccordionFAQ() {
 
     return (
         <>
          <div id="faq">
            
          </div>
-         <div className="accordion_wrapper">
-             <div className="accordion">
+         <div className="faq-container">
+           <div className="accordion_wrapper">
              <h1 id="paragraph_header">FAQ</h1>
-                 {data.map((item, i) => (
-                     <div className="accordion_item">
-                         <div className="accordion_title" onClick = {() => toggle(i)}>
-                             <h2 className="accordion_h2">{item.question}</h2>
-                             <span>{selected == i ? '-' : '+'}</span>
-                         </div>
-                         <div className={selected == i ? 'accordion_content show' : 'accordion_content'}>{item.answer}</div>
-                     </div>
-                 ))}
-             </div>
+             {data.map((item, i) => (
+             <Accordion>
+             <Accordion.Item eventKey="0">
+                 <Accordion.Header className="accordion-header">{item.question}</Accordion.Header>
+                 <Accordion.Body>
+                    {item.answer}
+                 </Accordion.Body>
+             </Accordion.Item>
+             </Accordion>
+             ))}
+           </div>
          </div>
         </>
     )
@@ -63,4 +54,4 @@ const data = [
     },
 ]
 
-export default Accordion
+export default AccordionFAQ

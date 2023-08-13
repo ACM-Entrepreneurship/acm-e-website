@@ -14,7 +14,7 @@ body {
     padding-top: 75px;
 }
 
-.card {
+.card_p {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,7 @@ body {
 .card_title {
     padding: 1rem;
     color: #E1B768;
+    font-size: 1.8vw;
 }
 
 .card_description {

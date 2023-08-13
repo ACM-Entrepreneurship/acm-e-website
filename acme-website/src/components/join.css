@@ -17,6 +17,7 @@ section {
     font-weight: 600;
     font-size: 31px;
     border-bottom: 2px solid #E1B768;
+    color: #E1B768;
     padding-bottom: 7px;
     width: 300px;
 }
@@ -27,6 +28,7 @@ section {
     font-weight: 600;
     font-size: 19px;
     padding-top: 2px;
+    color: #E1B768;
 }
 
 .join-p-div {
@@ -50,6 +52,7 @@ section {
     margin-top: 20px;
     border: 2px solid transparent;
     color: #E1B768;
+    justify-self: center;
 }
 
 .join-btn {
