@@ -17,7 +17,7 @@ function Footer (){
 
               <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a href="https://www.instagram.com/acm_entrepreneurship/" target="_blank" rel="noopener noreferrer"><BsInstagram size={38} color={"#E1B768"}/></a></li>
-                <li class="ms-3"><a href="/" target="_blank" rel="noopener noreferrer"><BsLinkedin size={38} color={"#E1B768"}/></a></li>
+                <li class="ms-3"><a href="https://www.linkedin.com/company/acm-entrepreneurship" target="_blank" rel="noopener noreferrer"><BsLinkedin size={38} color={"#E1B768"}/></a></li>
                 <li class="ms-3"><a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer"><BsDiscord size={38} color={"#E1B768"}/></a></li>
               </ul>
             </footer>
