@@ -9,7 +9,7 @@ function Projects() {
             </div>
 
             <div className="card_wrapper">
-              <div className="card">
+              <div className="card_p">
                   <div className="card_body">
                       <img class="card_img" src="images/minerwarehouse_logo.png"/>
                       <h2 className="card_title">MinerWarehouse</h2>
@@ -20,16 +20,16 @@ function Projects() {
             
 
             
-              <div className="card">
+              <div className="card_p">
                   <div className="card_body">
                       <img class="card_img" src="images/acme-card-logo.png"/>
                       <h2 className="card_title">Gems Genesis</h2>
                       <p className="card_description">Gems Genesis</p>
-                      <button className="card_btn">Learn more</button>
+                      <Link to="/gemsgenesis"><button className="card_btn">Learn more</button></Link>
                   </div>
               </div>
 
-              <div className="card">
+              <div className="card_p">
                   <div className="card_body">
                       <img class="card_img" src="images/acme-card-logo.png"/>
                       <h2 className="card_title">Podcast</h2>

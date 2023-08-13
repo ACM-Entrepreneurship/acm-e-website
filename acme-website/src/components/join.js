@@ -1,45 +1,51 @@
-import "./join.css";
+import React from 'react';
+import './join.css'; // Import the CSS file
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Join() {
     return (
       <>
-     
         <div id="join" className="projects">
           <h1 id="paragraph_header">How to Join</h1>
         </div>
-    
-        <div>
-          <section>
-            <div className="container">
-                <div className="join_cards">
-                    <div className="join_card">
-                        <h2 className="join-h2">Weekly Meetings</h2>
-                        <div className="join-p-div">
-                         <p className="join-p">Tuesdays at 6:30 PM</p>
-                         <p className="join-p">CS Building</p>
-                         <p className="join-p">Room 221</p>
+        <section className="d-flex justify-content-center align-items-center">
+            
+                <Row className="join-cards justify-content-center align-items-center"> {/* Centering the row */}
+                    <Col sm={12} md={4}>
+                        <div className="join-card">
+                            <h2 className="join-h2">Weekly Meetings</h2>
+                            <div className="join-p-div">
+                                <p className="join-p">Tuesdays at 6:30 PM</p>
+                                <p className="join-p">CS Building</p>
+                                <p className="join-p">Room 221</p>
+                            </div>
                         </div>
-                    </div>
+                    </Col>
 
-                    <div className="join_card">
-                        <h2 className="join-h2">Discord</h2>
-                        <div className="join-p-div">
-                         <p className="join-p">Join our Discord for updates and discussions!</p>
-                         <a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer" className="join-btn">Our Discord</a>
+                    <Col sm={12} md={4}>
+                        <div className="join-card">
+                            <h2 className="join-h2">Discord</h2>
+                            <div className="join-p-div">
+                                <p className="join-p">Join our Discord for updates and discussions!</p>
+                                <a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer" className="join-btn">Our Discord</a>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div className="join_card">
-                        <h2 className="join-h2">Interest Form</h2>
-                        <div className="join-p-div">
-                         <p className="join-p">Fill out the interest form!</p>
-                         <a href="#" className="join-btn">Interest Form</a>
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <div className="join-card">
+                            <h2 className="join-h2">Interest Form</h2>
+                            <div className="join-p-div">
+                                <p className="join-p">Fill out the interest form!</p>
+                                <a href="#" className="join-btn">Interest Form</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div> 
-          </section>
-        </div>
+                    </Col>
+                </Row>
+            
+        </section>
       </>
     );
 }
