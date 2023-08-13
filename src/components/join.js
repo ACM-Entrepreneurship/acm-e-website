@@ -45,7 +45,7 @@ function Join() {
                                 <p className="join-p">Fill out the interest form!</p>
 
                                 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=vv3-4-n3G0ClGjVeAbBaiVhuhPwePehOn9TEumYtjBdUNzZCODJJWlc1VlVBRVlRTUIxM1oyNVpKNS4u" target="_blank" rel="noopener noreferrer">
-                                  <Button variant="warning" className='join-btn'>Interest from</Button>
+                                  <Button variant="warning" className='join-btn'>Form</Button>
                                 </a>
                                 
                             </div>
