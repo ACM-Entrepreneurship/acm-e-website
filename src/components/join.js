@@ -1,8 +1,8 @@
 import React from 'react';
-import './join.css'; // Import the CSS file
-import Container from 'react-bootstrap/Container';
+import './join.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function Join() {
     return (
@@ -29,7 +29,11 @@ function Join() {
                             <h2 className="join-h2">Discord</h2>
                             <div className="join-p-div">
                                 <p className="join-p">Join our Discord for updates and discussions!</p>
-                                <a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer" className="join-btn">Our Discord</a>
+                                
+                                <a href="https://discord.gg/geenvNRg" target="_blank" rel="noopener noreferrer">
+                                    <Button variant="warning" className='join-btn'>Our Discord</Button>
+                                </a>
+                                
                             </div>
                         </div>
                     </Col>
@@ -39,7 +43,11 @@ function Join() {
                             <h2 className="join-h2">Interest Form</h2>
                             <div className="join-p-div">
                                 <p className="join-p">Fill out the interest form!</p>
-                                <a href="#" className="join-btn">Interest Form</a>
+
+                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=vv3-4-n3G0ClGjVeAbBaiVhuhPwePehOn9TEumYtjBdUNzZCODJJWlc1VlVBRVlRTUIxM1oyNVpKNS4u" target="_blank" rel="noopener noreferrer">
+                                  <Button variant="warning" className='join-btn'>Interest from</Button>
+                                </a>
+                                
                             </div>
                         </div>
                     </Col>
