@@ -46,49 +46,7 @@ class Card extends Component {
 
 export default function TeamCarousel() {
   const cardDataByYear = {
-    2023: [
-      {
-        imgSrc: "images/braxton.jpg",
-        name: "Braxton Schmedeke",
-        role: "Chair",
-        linkedInLink: "https://www.linkedin.com/in/braxtonschmedeke/",
-        igLink: "https://www.instagram.com/braxton_schmedeke/",
-      },
-      {
-        imgSrc: "images/parsa_headshot.jpg",
-        name: "Parsa Hajiha",
-        role: "Vice-Chair",
-        linkedInLink: "https://www.linkedin.com/in/parsa-hajiha/",
-        githubLink: "https://github.com/parsa-hj",
-        igLink: "https://www.instagram.com/hj.parsa/",
-      },
-      {
-        imgSrc: "images/don.jpg",
-        name: "Dondo Adriel",
-        role: "Entrepreneurship and Innovation",
-        linkedInLink: "https://www.linkedin.com/in/dondo-adriel-351931235",
-        igLink: "https://instagram.com/don__adriel?igshid=YmMyMTA2M2Y=",
-      },
-      {
-        imgSrc: "images/naseem.jpg",
-        name: "Naseem Alansari",
-        role: "Public Relations",
-        linkedInLink: "https://www.linkedin.com/in/naseem-alansari-9ba690190/",
-        igLink: "https://www.instagram.com/humblerebels/",
-      },
-      {
-        imgSrc: "images/kevin.png",
-        name: "Kevin Lai",
-        role: "Technical Operations",
-      },
-      {
-        imgSrc: "images/kiko.png",
-        name: "Kiko Perez",
-        role: "Financial Advisor",
-      },
-    ],
-
-    2022: [
+    "2022-23": [
       {
         imgSrc: "images/rueil.jpg",
         name: "Rueil Manzambi",
@@ -160,21 +118,63 @@ export default function TeamCarousel() {
         linkedInLink: "inkedin.com/in/adam-camerer-0ab453251/",
       },
       {
-        imgSrc: "images/sasha.jpg",
+        imgSrc: "images/placeholder.jpg",
         name: "Oleksandra (Sasha)",
         role: "Member",
         linkedInLink: "https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav",
       },
       {
-        imgSrc: "images/tj.jpg",
+        imgSrc: "images/placeholder.jpg",
         name: "Tohajie Raet",
         role: "Member",
         linkedInLink: "https://www.linkedin.com/mwlite/in/tohajie-raet-aa8119218",
       },
     ],
+
+    "2023-24": [
+      {
+        imgSrc: "images/braxton.jpg",
+        name: "Braxton Schmedeke",
+        role: "Chair",
+        linkedInLink: "https://www.linkedin.com/in/braxtonschmedeke/",
+        igLink: "https://www.instagram.com/braxton_schmedeke/",
+      },
+      {
+        imgSrc: "images/parsa_headshot.jpg",
+        name: "Parsa Hajiha",
+        role: "Vice-Chair",
+        linkedInLink: "https://www.linkedin.com/in/parsa-hajiha/",
+        githubLink: "https://github.com/parsa-hj",
+        igLink: "https://www.instagram.com/hj.parsa/",
+      },
+      {
+        imgSrc: "images/don.jpg",
+        name: "Dondo Adriel",
+        role: "Entrepreneurship and Innovation",
+        linkedInLink: "https://www.linkedin.com/in/dondo-adriel-351931235",
+        igLink: "https://instagram.com/don__adriel?igshid=YmMyMTA2M2Y=",
+      },
+      {
+        imgSrc: "images/naseem.jpg",
+        name: "Naseem Alansari",
+        role: "Public Relations",
+        linkedInLink: "https://www.linkedin.com/in/naseem-alansari-9ba690190/",
+        igLink: "https://www.instagram.com/humblerebels/",
+      },
+      {
+        imgSrc: "images/kevin.png",
+        name: "Kevin Lai",
+        role: "Technical Operations",
+      },
+      {
+        imgSrc: "images/kiko.png",
+        name: "Kiko Perez",
+        role: "Financial Advisor",
+      },
+    ],
   };
 
-  const [activeYear, setActiveYear] = useState(2023); // Default active year
+  const [activeYear, setActiveYear] = useState("2023-24"); // Default active year
 
   const settings = {
     dots: true,
