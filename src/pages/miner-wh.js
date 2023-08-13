@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Footer from '../components/footer'
+import Button from 'react-bootstrap/Button';
 import "./pages.css";
 
 function MinerWarehouse() {
@@ -13,7 +14,7 @@ function MinerWarehouse() {
     </div>
 
     <div className="pages-header">
-        <img src="images/group-pic-1.jpg" id="page_header"/>
+        <img src="images/minerwarehouse_logo.png" id="mw_header"/>
     </div>
 
     <div className="paragraph">
@@ -22,7 +23,8 @@ function MinerWarehouse() {
         </div>
 
         <div className="text">
-            <p id="paragraph_text">A description for Miner MinerWarehouse</p>
+            <p id="paragraph_text">MinerWarehouse is one of our ambitious projects. Miner Warehouse is an e-commerce platform set to redefine both the shopping experience and campus connectivity. Our initial focus is on showcasing merchandise from fellow student organizations, fostering a 
+            sense of strong community spirit and celebrating unique identities on campus. After this step is completed successfully in a period of time, we will make MinerWarehouse available on other college campuses.</p>
         </div>
     </div>
     <Footer></Footer>

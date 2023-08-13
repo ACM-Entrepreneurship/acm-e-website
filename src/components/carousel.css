@@ -142,3 +142,8 @@
         padding: 1em;
     }
 }
+
+.nav-link:hover {
+  background-color: #E1B768; /* Set the desired hover background color */
+  color: black;
+}

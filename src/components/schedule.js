@@ -17,20 +17,20 @@ function Schedule() {
       fill
     >
       <Tab eventKey="home" title="General Meeting" className="title-txt">
-        <h1>Date: Tuesday, March 21st 2023</h1>
-        <h1>Location: Computer Science Room 221</h1>
+        <h1>Date: To be decided</h1>
+        <h1>Location: To be decided</h1>
       </Tab>
       <Tab eventKey="profile" title="Gems Genesis" className="title-txt">
-        <h1>Date: Saturday, March 25th 2023</h1>
+        <h1>Date: To be decided</h1>
         <h1>Location: Leach Theater</h1>
       </Tab>
       <Tab eventKey="longer-tab" title="Podcast" className="title-txt">
         <h1>Date: Saturdays at 1 PM (CDT)</h1>
-        <h1>On ACM Entrepreneurship's YouTube channel</h1>
+        <h1>Location: ACM-E's YouTube channel</h1>
       </Tab>
       <Tab eventKey="contact" title="Workshop" className="title-txt">
-        <h1>Date: Fridays at 7 PM (CDT)</h1>
-        <h1>TJ</h1>
+        <h1>Date: To be decided</h1>
+        <h1>Location: To be decided</h1>
       </Tab>
     </Tabs>
     </div>
