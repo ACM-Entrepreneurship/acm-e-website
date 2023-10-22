@@ -6,6 +6,9 @@
 ![AUR license](https://img.shields.io/aur/license/license?color=red)
 
 
+![Screenshot-acme](https://github.com/ACM-Entrepreneurship/acm-e-website/assets/62154897/bf7627b5-367d-4944-bb30-1e4b4f9806f6)
+
+
 Welcome to the Missouri S&T ACM Entrepreneurship website GitHub repository! This website will serve as a platform for students to gain information about the organization, its events, projects, and resources. The website will consist of several sections including Home, Projects, Events, How to Join, Team, and FAQ.
 
 <br>
